@@ -1,0 +1,9 @@
+Classification report
+Images: 261
+Correct: 222
+Incorrect: 39
+Accuracy: 0.850574713
+Macro precision: 0.880051400
+Macro recall: 0.793249701
+Macro F1: 0.824559494
+Weighted F1: 0.842516340

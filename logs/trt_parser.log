@@ -1,0 +1,57 @@
+[
+  {
+    "path": "/home/jetson/Downloads/classification_jetson/yolov8n_cls_inference_models/yolov8n_cls_inference.onnx",
+    "parse_success": true,
+    "errors": [],
+    "inputs": [
+      {
+        "name": "images",
+        "shape": [
+          -1,
+          3,
+          -1,
+          -1
+        ],
+        "dtype": "DataType.FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "output0",
+        "shape": [
+          -1,
+          3
+        ],
+        "dtype": "DataType.FLOAT"
+      }
+    ]
+  },
+  {
+    "path": "/home/jetson/Downloads/classification_benchmark/yolov8n-cls/yolov8n_cls_tensorrt_fp32_640x640_batch1_warmup10_20260717_161313/onnx/yolov8n_cls_source.onnx",
+    "parse_success": true,
+    "errors": [],
+    "inputs": [
+      {
+        "name": "images",
+        "shape": [
+          1,
+          3,
+          640,
+          640
+        ],
+        "dtype": "DataType.FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "output0",
+        "shape": [
+          1,
+          3
+        ],
+        "dtype": "DataType.FLOAT"
+      }
+    ]
+  }
+]
+TENSORRT PARSER VALIDATION PASS

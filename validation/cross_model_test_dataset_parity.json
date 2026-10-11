@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "current_count": 261,
+  "resnet50_reference": "/home/jetson/Downloads/classification_benchmark/resnet50_final/resnet50_tensorrt_fp32_640x640_batch1_warmup10_20260716_182655",
+  "resnet50_match": true,
+  "mobilenet_reference": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp32_640x640_batch1_warmup10_20260717_133615",
+  "mobilenet_match": true,
+  "class_mapping": {
+    "0": "class_1_asymptomatic",
+    "1": "class_2_mild_symptoms",
+    "2": "class_3_symptomatic_compromised"
+  }
+}

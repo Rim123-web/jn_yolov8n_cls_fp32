@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "operation": "static-interface copy of the validated historical ONNX; graph nodes, initializers, and weights were not re-exported",
+  "original_path": "/home/jetson/Downloads/classification_benchmark/yolov8n-cls/yolov8n_cls_tensorrt_fp32_640x640_batch1_warmup10_20260717_161313/onnx/yolov8n_cls_original_dynamic.onnx",
+  "original_size_bytes": 5772983,
+  "original_sha256": "8c4fa4a682da136cf09bb0bbc18f88d05d94b4f6d779771c892152824ae24c64",
+  "output_path": "/home/jetson/Downloads/classification_benchmark/yolov8n-cls/yolov8n_cls_tensorrt_fp32_640x640_batch1_warmup10_20260717_161313/onnx/yolov8n_cls_source.onnx",
+  "output_size_bytes": 5772949,
+  "output_sha256": "341afc3adf731e3ff5ac1ccc0c5893d6eed45eca47d9eb80d536ddcbde48ea1c",
+  "duration_seconds": 0.17157722800038755,
+  "onnx_version": "1.17.0",
+  "opset": [
+    17
+  ],
+  "input": {
+    "name": "images",
+    "shape": [
+      1,
+      3,
+      640,
+      640
+    ],
+    "dtype": "FLOAT"
+  },
+  "output": {
+    "name": "output0",
+    "shape": [
+      1,
+      3
+    ],
+    "dtype": "FLOAT"
+  },
+  "dynamic_shapes": false,
+  "embedded_preprocessing": false,
+  "embedded_softmax": true,
+  "node_count": 100,
+  "initializer_count": 54,
+  "operator_counts": {
+    "Add": 6,
+    "Concat": 4,
+    "Constant": 4,
+    "Conv": 26,
+    "Flatten": 1,
+    "Gemm": 1,
+    "GlobalAveragePool": 1,
+    "Mul": 26,
+    "Sigmoid": 26,
+    "Softmax": 1,
+    "Split": 4
+  },
+  "onnx_checker": "PASS",
+  "onnxruntime_validation": "UNAVAILABLE_ON_JETSON_UNSAFE_RUNTIME_EXCLUDED"
+}
+STATIC ONNX PREPARATION PASS

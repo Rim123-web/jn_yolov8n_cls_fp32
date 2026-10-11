@@ -1,0 +1,178 @@
+&&&& RUNNING TensorRT.trtexec [TensorRT v8001] # /usr/src/tensorrt/bin/trtexec --onnx=/home/jetson/Downloads/classification_benchmark/yolov8n-cls/yolov8n_cls_tensorrt_fp32_640x640_batch1_warmup10_20260717_161313/onnx/yolov8n_cls_source.onnx --saveEngine=/home/jetson/Downloads/classification_benchmark/yolov8n-cls/yolov8n_cls_tensorrt_fp32_640x640_batch1_warmup10_20260717_161313/engine/yolov8n_cls_tensorrt_fp32_1x3x640x640.engine --workspace=1024 --noTF32 --inputIOFormats=fp32:chw --outputIOFormats=fp32:chw --timingCacheFile=/home/jetson/Downloads/classification_benchmark/yolov8n-cls/yolov8n_cls_tensorrt_fp32_640x640_batch1_warmup10_20260717_161313/engine/timing_cache.bin --buildOnly
+[07/17/2026-16:15:33] [I] === Model Options ===
+[07/17/2026-16:15:33] [I] Format: ONNX
+[07/17/2026-16:15:33] [I] Model: /home/jetson/Downloads/classification_benchmark/yolov8n-cls/yolov8n_cls_tensorrt_fp32_640x640_batch1_warmup10_20260717_161313/onnx/yolov8n_cls_source.onnx
+[07/17/2026-16:15:33] [I] Output:
+[07/17/2026-16:15:33] [I] === Build Options ===
+[07/17/2026-16:15:33] [I] Max batch: explicit
+[07/17/2026-16:15:33] [I] Workspace: 1024 MiB
+[07/17/2026-16:15:33] [I] minTiming: 1
+[07/17/2026-16:15:33] [I] avgTiming: 8
+[07/17/2026-16:15:33] [I] Precision: FP32
+[07/17/2026-16:15:33] [I] Calibration: 
+[07/17/2026-16:15:33] [I] Refit: Disabled
+[07/17/2026-16:15:33] [I] Sparsity: Disabled
+[07/17/2026-16:15:33] [I] Safe mode: Disabled
+[07/17/2026-16:15:33] [I] Restricted mode: Disabled
+[07/17/2026-16:15:33] [I] Save engine: /home/jetson/Downloads/classification_benchmark/yolov8n-cls/yolov8n_cls_tensorrt_fp32_640x640_batch1_warmup10_20260717_161313/engine/yolov8n_cls_tensorrt_fp32_1x3x640x640.engine
+[07/17/2026-16:15:33] [I] Load engine: 
+[07/17/2026-16:15:33] [I] NVTX verbosity: 0
+[07/17/2026-16:15:33] [I] Tactic sources: Using default tactic sources
+[07/17/2026-16:15:33] [I] timingCacheMode: global
+[07/17/2026-16:15:33] [I] timingCacheFile: /home/jetson/Downloads/classification_benchmark/yolov8n-cls/yolov8n_cls_tensorrt_fp32_640x640_batch1_warmup10_20260717_161313/engine/timing_cache.bin
+[07/17/2026-16:15:33] [I] Input(s): fp32:chw
+[07/17/2026-16:15:33] [I] Output(s): fp32:chw
+[07/17/2026-16:15:33] [I] Input build shapes: model
+[07/17/2026-16:15:33] [I] Input calibration shapes: model
+[07/17/2026-16:15:33] [I] === System Options ===
+[07/17/2026-16:15:33] [I] Device: 0
+[07/17/2026-16:15:33] [I] DLACore: 
+[07/17/2026-16:15:33] [I] Plugins:
+[07/17/2026-16:15:33] [I] === Inference Options ===
+[07/17/2026-16:15:33] [I] Batch: Explicit
+[07/17/2026-16:15:33] [I] Input inference shapes: model
+[07/17/2026-16:15:33] [I] Iterations: 10
+[07/17/2026-16:15:33] [I] Duration: 3s (+ 200ms warm up)
+[07/17/2026-16:15:33] [I] Sleep time: 0ms
+[07/17/2026-16:15:33] [I] Streams: 1
+[07/17/2026-16:15:33] [I] ExposeDMA: Disabled
+[07/17/2026-16:15:33] [I] Data transfers: Enabled
+[07/17/2026-16:15:33] [I] Spin-wait: Disabled
+[07/17/2026-16:15:33] [I] Multithreading: Disabled
+[07/17/2026-16:15:33] [I] CUDA Graph: Disabled
+[07/17/2026-16:15:33] [I] Separate profiling: Disabled
+[07/17/2026-16:15:33] [I] Time Deserialize: Disabled
+[07/17/2026-16:15:33] [I] Time Refit: Disabled
+[07/17/2026-16:15:33] [I] Skip inference: Enabled
+[07/17/2026-16:15:33] [I] Inputs:
+[07/17/2026-16:15:33] [I] === Reporting Options ===
+[07/17/2026-16:15:33] [I] Verbose: Disabled
+[07/17/2026-16:15:33] [I] Averages: 10 inferences
+[07/17/2026-16:15:33] [I] Percentile: 99
+[07/17/2026-16:15:33] [I] Dump refittable layers:Disabled
+[07/17/2026-16:15:33] [I] Dump output: Disabled
+[07/17/2026-16:15:33] [I] Profile: Disabled
+[07/17/2026-16:15:33] [I] Export timing to JSON file: 
+[07/17/2026-16:15:33] [I] Export output to JSON file: 
+[07/17/2026-16:15:33] [I] Export profile to JSON file: 
+[07/17/2026-16:15:33] [I] 
+[07/17/2026-16:15:33] [I] === Device Information ===
+[07/17/2026-16:15:33] [I] Selected Device: NVIDIA Tegra X1
+[07/17/2026-16:15:33] [I] Compute Capability: 5.3
+[07/17/2026-16:15:33] [I] SMs: 1
+[07/17/2026-16:15:33] [I] Compute Clock Rate: 0.9216 GHz
+[07/17/2026-16:15:33] [I] Device Global Memory: 3962 MiB
+[07/17/2026-16:15:33] [I] Shared Memory per SM: 64 KiB
+[07/17/2026-16:15:33] [I] Memory Bus Width: 64 bits (ECC disabled)
+[07/17/2026-16:15:33] [I] Memory Clock Rate: 0.01275 GHz
+[07/17/2026-16:15:33] [I] 
+[07/17/2026-16:15:33] [I] TensorRT version: 8001
+[07/17/2026-16:15:35] [I] [TRT] [MemUsageChange] Init CUDA: CPU +203, GPU +0, now: CPU 221, GPU 3534 (MiB)
+[07/17/2026-16:15:35] [I] Start parsing network model
+[07/17/2026-16:15:35] [I] [TRT] ----------------------------------------------------------------
+[07/17/2026-16:15:35] [I] [TRT] Input filename:   /home/jetson/Downloads/classification_benchmark/yolov8n-cls/yolov8n_cls_tensorrt_fp32_640x640_batch1_warmup10_20260717_161313/onnx/yolov8n_cls_source.onnx
+[07/17/2026-16:15:35] [I] [TRT] ONNX IR version:  0.0.8
+[07/17/2026-16:15:35] [I] [TRT] Opset version:    17
+[07/17/2026-16:15:35] [I] [TRT] Producer name:    pytorch
+[07/17/2026-16:15:35] [I] [TRT] Producer version: 2.11.0
+[07/17/2026-16:15:35] [I] [TRT] Domain:           
+[07/17/2026-16:15:35] [I] [TRT] Model version:    0
+[07/17/2026-16:15:35] [I] [TRT] Doc string:       
+[07/17/2026-16:15:35] [I] [TRT] ----------------------------------------------------------------
+[07/17/2026-16:15:35] [07/17/2026-16:15:35] [I] Finish parsing network model
+[07/17/2026-16:15:35] [I] [TRT] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 227, GPU 3546 (MiB)
+[07/17/2026-16:15:35] [07/17/2026-16:15:35] [I] [TRT] [MemUsageSnapshot] Builder begin: CPU 227 MiB, GPU 3546 MiB
+[07/17/2026-16:15:36] [I] [TRT] ---------- Layers Running on DLA ----------
+[07/17/2026-16:15:36] [I] [TRT] ---------- Layers Running on GPU ----------
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.0/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(/model.0/act/Sigmoid), /model.0/act/Mul)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.1/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(/model.1/act/Sigmoid), /model.1/act/Mul)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.2/cv1/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(/model.2/cv1/act/Sigmoid), /model.2/cv1/act/Mul)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.2/Split
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.2/Split_0
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.2/m.0/cv1/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(/model.2/m.0/cv1/act/Sigmoid), /model.2/m.0/cv1/act/Mul)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.2/m.0/cv2/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(PWN(/model.2/m.0/cv2/act/Sigmoid), /model.2/m.0/cv2/act/Mul), /model.2/m.0/Add)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.2/Split_output_1 copy
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.2/cv2/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(/model.2/cv2/act/Sigmoid), /model.2/cv2/act/Mul)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.3/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(/model.3/act/Sigmoid), /model.3/act/Mul)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.4/cv1/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(/model.4/cv1/act/Sigmoid), /model.4/cv1/act/Mul)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.4/Split
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.4/Split_1
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.4/m.0/cv1/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(/model.4/m.0/cv1/act/Sigmoid), /model.4/m.0/cv1/act/Mul)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.4/m.0/cv2/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(PWN(/model.4/m.0/cv2/act/Sigmoid), /model.4/m.0/cv2/act/Mul), /model.4/m.0/Add)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.4/m.1/cv1/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(/model.4/m.1/cv1/act/Sigmoid), /model.4/m.1/cv1/act/Mul)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.4/m.1/cv2/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(PWN(/model.4/m.1/cv2/act/Sigmoid), /model.4/m.1/cv2/act/Mul), /model.4/m.1/Add)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.4/Split_output_1 copy
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.4/m.0/Add_output_0 copy
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.4/cv2/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(/model.4/cv2/act/Sigmoid), /model.4/cv2/act/Mul)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.5/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(/model.5/act/Sigmoid), /model.5/act/Mul)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.6/cv1/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(/model.6/cv1/act/Sigmoid), /model.6/cv1/act/Mul)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.6/Split
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.6/Split_2
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.6/m.0/cv1/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(/model.6/m.0/cv1/act/Sigmoid), /model.6/m.0/cv1/act/Mul)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.6/m.0/cv2/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(PWN(/model.6/m.0/cv2/act/Sigmoid), /model.6/m.0/cv2/act/Mul), /model.6/m.0/Add)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.6/m.1/cv1/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(/model.6/m.1/cv1/act/Sigmoid), /model.6/m.1/cv1/act/Mul)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.6/m.1/cv2/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(PWN(/model.6/m.1/cv2/act/Sigmoid), /model.6/m.1/cv2/act/Mul), /model.6/m.1/Add)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.6/Split_output_1 copy
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.6/m.0/Add_output_0 copy
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.6/cv2/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(/model.6/cv2/act/Sigmoid), /model.6/cv2/act/Mul)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.7/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(/model.7/act/Sigmoid), /model.7/act/Mul)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.8/cv1/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(/model.8/cv1/act/Sigmoid), /model.8/cv1/act/Mul)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.8/Split
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.8/Split_3
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.8/m.0/cv1/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(/model.8/m.0/cv1/act/Sigmoid), /model.8/m.0/cv1/act/Mul)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.8/m.0/cv2/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(PWN(/model.8/m.0/cv2/act/Sigmoid), /model.8/m.0/cv2/act/Mul), /model.8/m.0/Add)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.8/Split_output_1 copy
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.8/cv2/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(/model.8/cv2/act/Sigmoid), /model.8/cv2/act/Mul)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.9/conv/conv/Conv
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] PWN(PWN(/model.9/conv/act/Sigmoid), /model.9/conv/act/Mul)
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.9/pool/GlobalAveragePool
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.9/linear/Gemm
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] (Unnamed Layer* 100) [Shuffle]
+[07/17/2026-16:15:36] [I] [TRT] [GpuLayer] /model.9/Softmax
+[07/17/2026-16:15:37] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +158, GPU +142, now: CPU 385, GPU 3683 (MiB)
+[07/17/2026-16:15:42] [I] [TRT] [MemUsageChange] Init cuDNN: CPU +241, GPU -40, now: CPU 626, GPU 3643 (MiB)
+[07/17/2026-16:18:10] [I] [TRT] Some tactics do not have sufficient workspace memory to run. Increasing workspace size may increase performance, please check verbose output.
+[07/17/2026-16:19:09] [I] [TRT] Detected 1 inputs and 1 output network tensors.
+[07/17/2026-16:19:09] [I] [TRT] Total Host Persistent Memory: 49360
+[07/17/2026-16:19:09] [I] [TRT] Total Device Persistent Memory: 10448384
+[07/17/2026-16:19:09] [I] [TRT] Total Scratch Memory: 0
+[07/17/2026-16:19:09] [I] [TRT] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 1 MiB, GPU 824 MiB
+[07/17/2026-16:19:09] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +9, now: CPU 872, GPU 3570 (MiB)
+[07/17/2026-16:19:09] [I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +1, now: CPU 872, GPU 3571 (MiB)
+[07/17/2026-16:19:09] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +1, now: CPU 872, GPU 3572 (MiB)
+[07/17/2026-16:19:09] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 872, GPU 3574 (MiB)
+[07/17/2026-16:19:09] [I] [TRT] [MemUsageSnapshot] Builder end: CPU 872 MiB, GPU 3574 MiB
+[07/17/2026-16:19:09] [I] [TRT] Loaded engine size: 11 MB
+[07/17/2026-16:19:09] [I] [TRT] [MemUsageSnapshot] deserializeCudaEngine begin: CPU 880 MiB, GPU 3588 MiB
+[07/17/2026-16:19:09] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +2, now: CPU 883, GPU 3589 (MiB)
+[07/17/2026-16:19:09] [I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +2, now: CPU 883, GPU 3591 (MiB)
+[07/17/2026-16:19:09] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 883, GPU 3587 (MiB)
+[07/17/2026-16:19:09] [I] [TRT] [MemUsageSnapshot] deserializeCudaEngine end: CPU 883 MiB, GPU 3584 MiB
+[07/17/2026-16:19:09] [I] Saved 26788 bytes of timing cache to /home/jetson/Downloads/classification_benchmark/yolov8n-cls/yolov8n_cls_tensorrt_fp32_640x640_batch1_warmup10_20260717_161313/engine/timing_cache.bin
+[07/17/2026-16:19:09] [I] Engine built in 216.682 sec.
+&&&& PASSED TensorRT.trtexec [TensorRT v8001] # /usr/src/tensorrt/bin/trtexec --onnx=/home/jetson/Downloads/classification_benchmark/yolov8n-cls/yolov8n_cls_tensorrt_fp32_640x640_batch1_warmup10_20260717_161313/onnx/yolov8n_cls_source.onnx --saveEngine=/home/jetson/Downloads/classification_benchmark/yolov8n-cls/yolov8n_cls_tensorrt_fp32_640x640_batch1_warmup10_20260717_161313/engine/yolov8n_cls_tensorrt_fp32_1x3x640x640.engine --workspace=1024 --noTF32 --inputIOFormats=fp32:chw --outputIOFormats=fp32:chw --timingCacheFile=/home/jetson/Downloads/classification_benchmark/yolov8n-cls/yolov8n_cls_tensorrt_fp32_640x640_batch1_warmup10_20260717_161313/engine/timing_cache.bin --buildOnly

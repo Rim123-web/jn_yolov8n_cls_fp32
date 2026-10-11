@@ -1,0 +1,25 @@
+{
+  "path": "/home/jetson/Downloads/classification_benchmark/yolov8n-cls/yolov8n_cls_tensorrt_fp32_640x640_batch1_warmup10_20260717_161313/onnx/yolov8n_cls_source.onnx",
+  "filename": "yolov8n_cls_source.onnx",
+  "size_bytes": 5772949,
+  "modified_time": 1784297689.3421538,
+  "sha256": "341afc3adf731e3ff5ac1ccc0c5893d6eed45eca47d9eb80d536ddcbde48ea1c",
+  "onnx_checker": "PASS",
+  "checker_error": "",
+  "opset": "[17]",
+  "input_name": "images",
+  "input_shape": "[1, 3, 640, 640]",
+  "input_dtype": 1,
+  "output_name": "output0",
+  "output_shape": "[1, 3]",
+  "output_dtype": 1,
+  "class_count": 3,
+  "dynamic": false,
+  "embedded_preprocessing": false,
+  "embedded_softmax": true,
+  "hardswish_nodes": 0,
+  "node_count": 100,
+  "selected": true,
+  "historical_reference": "selected fixed-interface copy"
+}
+ONNX CANDIDATE INSPECTION PASS

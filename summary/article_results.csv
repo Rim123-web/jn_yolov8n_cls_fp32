@@ -1,0 +1,2 @@
+model,precision,images,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,engine_latency_mean_ms,end_to_end_latency_mean_ms,engine_fps,transfer_inclusive_fps,pipeline_fps,wall_clock_fps,avg_power_tot_w,gross_energy_per_image_j,idle_corrected_energy_per_image_j
+YOLOv8n-cls,TensorRT FP32 strict,261,0.8505747126436781,0.8800514002126906,0.7932497013142175,0.8245594939350425,0.8425163399631771,32.63509513591898,257.27082775095784,30.641859502329922,26.948247911299447,3.8869544936047533,3.8766468707405197,7.058466019417476,1.766836412721667,0.3186236908707124

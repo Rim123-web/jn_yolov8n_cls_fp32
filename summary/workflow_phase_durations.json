@@ -1,0 +1,83 @@
+{
+  "status": "PARTIAL_TIMING_WITH_UNINSTRUMENTED_PHASES_EXPLICITLY_NA",
+  "phases": [
+    {
+      "phase": "Dataset and model preparation",
+      "duration_seconds": "NA",
+      "notes": "Completed before instrumentation; no value inferred."
+    },
+    {
+      "phase": "ONNX interface staticization",
+      "duration_seconds": 0.17157722800038755,
+      "notes": "Metadata-only staticization; no graph-node or initializer change."
+    },
+    {
+      "phase": "TensorRT engine build",
+      "duration_seconds": 218.5599410533905,
+      "notes": "Fresh strict-FP32 build."
+    },
+    {
+      "phase": "Correctness validation",
+      "duration_seconds": 67.61265420913696,
+      "notes": "20-image source-to-TensorRT validation."
+    },
+    {
+      "phase": "Idle power capture",
+      "duration_seconds": 30.0,
+      "notes": "Warm-up excluded."
+    },
+    {
+      "phase": "Official measured benchmark",
+      "duration_seconds": 67.32622513800015,
+      "notes": "261 images exactly once."
+    },
+    {
+      "phase": "Metric generation",
+      "duration_seconds": 0.09930970700042963,
+      "notes": "Offline from saved predictions."
+    },
+    {
+      "phase": "Performance statistics",
+      "duration_seconds": 0.34704463799971563,
+      "notes": "Offline from saved timings."
+    },
+    {
+      "phase": "Telemetry and energy analysis",
+      "duration_seconds": 0.012704774000667385,
+      "notes": "Offline from saved telemetry."
+    },
+    {
+      "phase": "Bottleneck analysis",
+      "duration_seconds": 0.16446174399970914,
+      "notes": "Offline from saved timings."
+    },
+    {
+      "phase": "Cross-model comparison",
+      "duration_seconds": 0.015528955000263522,
+      "notes": "Offline from validated reference packages."
+    },
+    {
+      "phase": "Figure generation",
+      "duration_seconds": 111.91527121199942,
+      "notes": "PNG/SVG/PDF plus plotted CSV."
+    },
+    {
+      "phase": "Report generation",
+      "duration_seconds": 0.09635658800107194,
+      "notes": "Updated after report generation."
+    },
+    {
+      "phase": "Packaging",
+      "duration_seconds": 7.16,
+      "notes": "Measured full-package tar.gz timing probe before immutable final archive creation."
+    },
+    {
+      "phase": "Transfer and local verification",
+      "duration_seconds": "RECORDED_IN_EXTERNAL_TRANSFER_VERIFICATION",
+      "notes": "Exact final transfer duration is necessarily recorded beside the archive after transfer; no value was guessed inside the pre-transfer archive."
+    }
+  ],
+  "instrumented_total_seconds": 503.4810752465293,
+  "finalizer_elapsed_seconds": 112.65076308900098,
+  "note": "No missing phase duration was guessed. Packaging and transfer are updated by post-benchmark evidence after those operations complete."
+}

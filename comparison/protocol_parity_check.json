@@ -1,0 +1,16 @@
+{
+  "status": "PASS_WITH_DOCUMENTED_NATIVE_PREPROCESSING_DIFFERENCE",
+  "same_device": true,
+  "same_dataset_and_order_resnet50": true,
+  "same_dataset_and_order_mobilenet": true,
+  "same_class_mapping": true,
+  "same_input_shape": true,
+  "same_batch_size": true,
+  "same_warmup_count": true,
+  "same_measured_image_count": true,
+  "same_timing_boundaries": true,
+  "same_monitoring_interval_seconds": true,
+  "native_preprocessing_identical": false,
+  "native_preprocessing_note": "YOLOv8n-cls uses its recovered shortest-edge resize, center crop, and identity normalization; the other architectures retain their own recovered training preprocessing. This is required for model-valid quality measurement and is a documented cross-architecture limitation.",
+  "interpretation": "Descriptive deployment comparison under matched device, dataset, shape, batch, warm-up, execution count, timing boundaries, and telemetry protocol; not an architectural ablation with identical preprocessing."
+}

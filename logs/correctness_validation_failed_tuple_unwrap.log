@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/jetson/Downloads/classification_benchmark/yolov8n-cls/yolov8n_cls_tensorrt_fp32_640x640_batch1_warmup10_20260717_161313/scripts/validate_correctness.py", line 182, in <module>
+    main()
+  File "/home/jetson/Downloads/classification_benchmark/yolov8n-cls/yolov8n_cls_tensorrt_fp32_640x640_batch1_warmup10_20260717_161313/scripts/validate_correctness.py", line 79, in main
+    pytorch_output = model(torch.from_numpy(tensor)).detach().cpu().numpy().reshape(-1)
+AttributeError: 'tuple' object has no attribute 'detach'

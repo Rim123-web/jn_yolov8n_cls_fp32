@@ -1,0 +1,95 @@
+{
+  "task": "classification",
+  "total_images": 261,
+  "correct": 222,
+  "incorrect": 39,
+  "accuracy": 0.8505747126436781,
+  "top5_accuracy": null,
+  "macro_precision": 0.8800514002126906,
+  "macro_recall": 0.7932497013142175,
+  "macro_f1": 0.8245594939350425,
+  "weighted_precision": 0.8564226837308039,
+  "weighted_recall": 0.8505747126436781,
+  "weighted_f1": 0.8425163399631771,
+  "per_class": [
+    {
+      "class_id": 0,
+      "class_name": "class_1_asymptomatic",
+      "support": 155,
+      "precision": 0.8296703296703297,
+      "recall": 0.9741935483870968,
+      "f1": 0.8961424332344214
+    },
+    {
+      "class_id": 1,
+      "class_name": "class_2_mild_symptoms",
+      "support": 70,
+      "precision": 0.875,
+      "recall": 0.6,
+      "f1": 0.711864406779661
+    },
+    {
+      "class_id": 2,
+      "class_name": "class_3_symptomatic_compromised",
+      "support": 36,
+      "precision": 0.9354838709677419,
+      "recall": 0.8055555555555556,
+      "f1": 0.8656716417910448
+    }
+  ],
+  "confusion_matrix": [
+    [
+      151,
+      4,
+      0
+    ],
+    [
+      26,
+      42,
+      2
+    ],
+    [
+      5,
+      2,
+      29
+    ]
+  ],
+  "confusion_matrix_normalized": [
+    [
+      0.9741935483870968,
+      0.025806451612903226,
+      0.0
+    ],
+    [
+      0.37142857142857144,
+      0.6,
+      0.02857142857142857
+    ],
+    [
+      0.1388888888888889,
+      0.05555555555555555,
+      0.8055555555555556
+    ]
+  ],
+  "class_names": [
+    "class_1_asymptomatic",
+    "class_2_mild_symptoms",
+    "class_3_symptomatic_compromised"
+  ],
+  "precision": "TensorRT FP32 strict",
+  "input_shape": [
+    1,
+    3,
+    640,
+    640
+  ],
+  "batch_size": 1,
+  "historical_reference": {
+    "accuracy": 0.8505747126436781,
+    "macro_f1": 0.8245594939350424
+  },
+  "historical_match": {
+    "accuracy_difference": 0.0,
+    "macro_f1_difference": 1.1102230246251565e-16
+  }
+}

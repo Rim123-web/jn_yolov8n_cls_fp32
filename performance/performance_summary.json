@@ -1,0 +1,30 @@
+{
+  "measured_images": 261,
+  "warmup_count": 10,
+  "mean_engine_latency_ms": 32.63509513591898,
+  "mean_transfer_inclusive_latency_ms": 37.10816388848413,
+  "mean_end_to_end_latency_ms": 257.27082775095784,
+  "engine_fps": 30.641859502329922,
+  "transfer_inclusive_fps": 26.948247911299447,
+  "latency_based_pipeline_fps": 3.8869544936047533,
+  "official_measured_wall_time_seconds": 67.32622513800015,
+  "wall_clock_pipeline_fps": 3.8766468707405197,
+  "engine_percentiles_ms": {
+    "p50": 31.944583892822266,
+    "p90": 32.372501373291016,
+    "p95": 32.5003662109375,
+    "p99": 59.25010528564405
+  },
+  "end_to_end_percentiles_ms": {
+    "p50": 136.95324,
+    "p90": 224.237888,
+    "p95": 280.140591,
+    "p99": 3586.162599999975
+  },
+  "fps_definitions": {
+    "engine_fps": "1000 / mean TensorRT execution-only CUDA-event latency",
+    "transfer_inclusive_fps": "1000 / mean(H2D + TensorRT + D2H)",
+    "latency_based_pipeline_fps": "1000 / mean complete file-open-to-classification latency",
+    "wall_clock_pipeline_fps": "N / official measured process wall time"
+  }
+}

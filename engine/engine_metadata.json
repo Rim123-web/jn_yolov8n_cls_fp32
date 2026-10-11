@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "engine_path": "/home/jetson/Downloads/classification_benchmark/yolov8n-cls/yolov8n_cls_tensorrt_fp32_640x640_batch1_warmup10_20260717_161313/engine/yolov8n_cls_tensorrt_fp32_1x3x640x640.engine",
+  "bindings": [
+    {
+      "index": 0,
+      "name": "images",
+      "is_input": true,
+      "engine_shape": [
+        1,
+        3,
+        640,
+        640
+      ],
+      "runtime_shape": [
+        1,
+        3,
+        640,
+        640
+      ],
+      "dtype": "DataType.FLOAT"
+    },
+    {
+      "index": 1,
+      "name": "output0",
+      "is_input": false,
+      "engine_shape": [
+        1,
+        3
+      ],
+      "runtime_shape": [
+        1,
+        3
+      ],
+      "dtype": "DataType.FLOAT"
+    }
+  ],
+  "input_shape_verified": true,
+  "input_output_fp32_verified": true,
+  "fp16_enabled": false,
+  "int8_enabled": false,
+  "tf32_enabled": false,
+  "verification_basis": "strict build command plus runtime binding inspection",
+  "cudart": "libcudart.so.10.2"
+}

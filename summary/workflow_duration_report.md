@@ -1,0 +1,17 @@
+# Workflow Duration
+
+- Dataset and model preparation: NA s (Completed before instrumentation; no value inferred.)
+- ONNX interface staticization: 0.17157722800038755 s (Metadata-only staticization; no graph-node or initializer change.)
+- TensorRT engine build: 218.5599410533905 s (Fresh strict-FP32 build.)
+- Correctness validation: 67.61265420913696 s (20-image source-to-TensorRT validation.)
+- Idle power capture: 30.0 s (Warm-up excluded.)
+- Official measured benchmark: 67.32622513800015 s (261 images exactly once.)
+- Metric generation: 0.09930970700042963 s (Offline from saved predictions.)
+- Performance statistics: 0.34704463799971563 s (Offline from saved timings.)
+- Telemetry and energy analysis: 0.012704774000667385 s (Offline from saved telemetry.)
+- Bottleneck analysis: 0.16446174399970914 s (Offline from saved timings.)
+- Cross-model comparison: 0.015528955000263522 s (Offline from validated reference packages.)
+- Figure generation: 111.91527121199942 s (PNG/SVG/PDF plus plotted CSV.)
+- Report generation: 0.09635658800107194 s (Updated after report generation.)
+- Packaging: 7.16 s (Measured full-package tar.gz timing probe before immutable final archive creation.)
+- Transfer and local verification: RECORDED_IN_EXTERNAL_TRANSFER_VERIFICATION s (Exact final transfer duration is necessarily recorded beside the archive after transfer; no value was guessed inside the pre-transfer archive.)

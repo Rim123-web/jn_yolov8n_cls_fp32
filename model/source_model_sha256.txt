@@ -1,0 +1,1 @@
+6b756b9724c65520f10586087e119afa6cccc28a258916390d5eb641b8f83a54  yolov8n_cls_inference_only.pt

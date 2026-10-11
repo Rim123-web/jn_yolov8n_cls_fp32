@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "sample_count": 60,
+  "minimum_required": 55,
+  "duration_requested_seconds": 30.0,
+  "interval_seconds": 0.5
+}

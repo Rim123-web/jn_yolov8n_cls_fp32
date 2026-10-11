@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "architecture": "YOLOv8n-cls",
+  "selected_source_model": "/home/jetson/Downloads/classification_jetson/yolov8n_cls_inference_models/yolov8n_cls_inference_only.pt",
+  "source_format": "Ultralytics .pt checkpoint",
+  "source_sha256": "6b756b9724c65520f10586087e119afa6cccc28a258916390d5eb641b8f83a54",
+  "provenance_linked_onnx": "/home/jetson/Downloads/classification_jetson/yolov8n_cls_inference_models/yolov8n_cls_inference.onnx",
+  "onnx_sha256": "8c4fa4a682da136cf09bb0bbc18f88d05d94b4f6d779771c892152824ae24c64",
+  "selection_reason": "The checkpoint embeds a three-class ultralytics.nn.tasks.ClassificationModel, the expected class names, 640 training size, and is the exact checkpoint paired with this ONNX by the executed historical FP32 benchmark. Identical hashes recur in the historical FP32, FP16, and INT8 packages.",
+  "confidence": "HIGH",
+  "original_checkpoint_unchanged": true,
+  "original_onnx_unchanged": true
+}

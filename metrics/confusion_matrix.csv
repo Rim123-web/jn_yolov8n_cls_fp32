@@ -1,0 +1,4 @@
+true_class,class_1_asymptomatic,class_2_mild_symptoms,class_3_symptomatic_compromised
+class_1_asymptomatic,151,4,0
+class_2_mild_symptoms,26,42,2
+class_3_symptomatic_compromised,5,2,29

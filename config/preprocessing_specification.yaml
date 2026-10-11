@@ -1,0 +1,18 @@
+color_order: RGB
+decoder: PIL.Image
+exif_orientation: not_explicitly_corrected
+resize_shortest_edge: 640
+resize_method: aspect_ratio_preserving
+interpolation: bilinear
+antialias: null
+center_crop: [640, 640]
+letterbox: false
+padding: none
+pixel_scale: 1/255
+mean: [0.0, 0.0, 0.0]
+std: [1.0, 1.0, 1.0]
+layout: NCHW
+dtype: float32
+input_shape: [1, 3, 640, 640]
+embedded_softmax: true
+external_softmax: false

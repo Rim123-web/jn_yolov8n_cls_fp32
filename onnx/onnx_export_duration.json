@@ -1,0 +1,4 @@
+{
+  "duration_seconds": 0.17157722800038755,
+  "note": "Interface staticization only; no PyTorch re-export."
+}

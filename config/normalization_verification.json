@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "mean": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "std": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "source": "/home/jetson/Downloads/classification_jetson/yolov8n_cls_fp32_core4_benchmark/scripts/run_yolov8n_cls_fp32_core4_benchmark.py",
+  "ambiguity": null
+}

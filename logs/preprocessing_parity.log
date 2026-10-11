@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "sample_count": 20,
+  "sampling": "20 evenly spaced deterministic images",
+  "reference": "ultralytics 8.4.47 classify_transforms(size=640)",
+  "maximum_absolute_difference": 0.0,
+  "mean_absolute_difference": 0.0,
+  "duration_seconds": 5.507466901999578
+}
+PREPROCESSING PARITY PASS

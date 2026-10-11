@@ -1,0 +1,9 @@
+{
+  "official_start_epoch": 1784298348.2377336,
+  "official_end_epoch": 1784298415.5640705,
+  "official_duration_seconds": 67.32622513800015,
+  "sample_count": 103,
+  "first_sample_epoch": 1784298348.2312748,
+  "last_sample_epoch": 1784298415.2653735,
+  "covers_official_window": false
+}

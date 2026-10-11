@@ -1,0 +1,4 @@
+true_class,class_1_asymptomatic,class_2_mild_symptoms,class_3_symptomatic_compromised
+class_1_asymptomatic,0.9741935483870968,0.025806451612903226,0.0
+class_2_mild_symptoms,0.37142857142857144,0.6,0.02857142857142857
+class_3_symptomatic_compromised,0.1388888888888889,0.05555555555555555,0.8055555555555556

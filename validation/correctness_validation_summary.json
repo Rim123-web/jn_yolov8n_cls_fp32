@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "sample_count": 20,
+  "sampling": "20 evenly spaced deterministic indices over the sorted 261-image list",
+  "all_top1_agree": true,
+  "onnx_checker": "PASS",
+  "tensorrt_parser": "PASS",
+  "onnxruntime": "UNAVAILABLE_ON_JETSON_UNSAFE_RUNTIME_EXCLUDED",
+  "max_pytorch_tensorrt_abs_error": 2.8014388330777074e-06,
+  "mean_pytorch_tensorrt_abs_error": 4.24607404401801e-07,
+  "minimum_cosine_similarity": 0.9999999999867208,
+  "predicted_classes": [
+    0,
+    1,
+    2
+  ],
+  "prediction_collapse": false,
+  "historical_prediction_agreement": 1.0,
+  "output_representation": "embedded_softmax_probabilities",
+  "tolerance": {
+    "max_abs_error": 0.001,
+    "minimum_cosine_similarity": 0.999
+  },
+  "duration_seconds": 67.61265420913696
+}

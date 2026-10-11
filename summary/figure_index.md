@@ -1,0 +1,35 @@
+# Figure Index
+
+- `confidence_correct_vs_incorrect.png`
+- `confidence_distribution.png`
+- `confusion_matrix_absolute.png`
+- `confusion_matrix_normalized.png`
+- `cpu_utilization_trace.png`
+- `cross_model_accuracy.png`
+- `cross_model_average_power.png`
+- `cross_model_engine_fps.png`
+- `cross_model_engine_latency.png`
+- `cross_model_engine_size.png`
+- `cross_model_gpu_utilization.png`
+- `cross_model_gross_energy_per_image.png`
+- `cross_model_macro_f1.png`
+- `cross_model_max_temperature.png`
+- `cross_model_net_energy_per_image.png`
+- `cross_model_pipeline_fps.png`
+- `cross_model_quality.png`
+- `cross_model_stage_breakdown.png`
+- `cross_model_wall_clock_fps.png`
+- `end_to_end_latency_distribution.png`
+- `end_to_end_latency_trace.png`
+- `engine_latency_distribution.png`
+- `engine_latency_trace.png`
+- `gpu_utilization_trace.png`
+- `latency_vs_power_tot.png`
+- `mean_stage_latency.png`
+- `mean_stage_share.png`
+- `per_class_metrics.png`
+- `power_tot_trace.png`
+- `ram_usage_trace.png`
+- `stacked_pipeline_breakdown.png`
+- `temperature_trace.png`
+- `workflow_phase_durations.png`

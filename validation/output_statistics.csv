@@ -1,0 +1,4 @@
+framework,finite,representation,sample_count
+source_pytorch,True,probabilities,20
+onnx_runtime,NA,embedded_softmax_graph_verified,0
+tensorrt_fp32,True,probabilities,20

@@ -1,0 +1,2 @@
+task,total_images,correct,incorrect,accuracy,top5_accuracy,macro_precision,macro_recall,macro_f1,weighted_precision,weighted_recall,weighted_f1,precision,batch_size
+classification,261,222,39,0.8505747126436781,,0.8800514002126906,0.7932497013142175,0.8245594939350425,0.8564226837308039,0.8505747126436781,0.8425163399631771,TensorRT FP32 strict,1

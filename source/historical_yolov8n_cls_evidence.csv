@@ -1,0 +1,10 @@
+property,value,source,lines
+architecture,YOLOv8n-cls three-class ClassificationModel,/home/jetson/Downloads/classification_jetson/yolov8n_cls_inference_models/yolov8n_cls_inference_only.pt,checkpoint model/train_args metadata
+decoder_color,PIL.Image.open(...).convert('RGB'),/home/jetson/Downloads/classification_jetson/yolov8n_cls_fp32_core4_benchmark/scripts/run_yolov8n_cls_fp32_core4_benchmark.py,138-143
+geometry,"torchvision Resize(shortest edge=640) then CenterCrop(640,640)",/home/jetson/Downloads/classification_jetson/yolov8n_cls_fp32_core4_benchmark/scripts/run_yolov8n_cls_fp32_core4_benchmark.py,138-143; ultralytics.data.augment.classify_transforms
+interpolation,"torchvision bilinear, antialias=None",ultralytics 8.4.47 classify_transforms runtime inspection,"Resize(size=640, interpolation=bilinear, antialias=None)"
+exif_orientation,no explicit ImageOps.exif_transpose,/home/jetson/Downloads/classification_jetson/yolov8n_cls_fp32_core4_benchmark/scripts/run_yolov8n_cls_fp32_core4_benchmark.py,142
+pixel_scale,ToTensor divide by 255,torchvision.transforms.ToTensor via classify_transforms,runtime transform composition
+normalization,"mean=[0.0, 0.0, 0.0] std=[1.0, 1.0, 1.0] (identity)",ultralytics 8.4.47 DEFAULT_MEAN/DEFAULT_STD runtime inspection,"DEFAULT_MEAN=(0,0,0), DEFAULT_STD=(1,1,1)"
+layout_dtype,contiguous NCHW float32 batch 1,/home/jetson/Downloads/classification_jetson/yolov8n_cls_fp32_core4_benchmark/scripts/run_yolov8n_cls_fp32_core4_benchmark.py,138-143 and TensorRT evaluator
+output,ONNX output0 contains embedded Softmax; no external softmax,/home/jetson/Downloads/classification_jetson/benchmark_results/yolov8n_cls_fp32/onnx_inspection.txt,"Output: output0 ['Softmaxoutput0_dim_0',3]"

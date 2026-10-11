@@ -1,0 +1,6 @@
+{
+  "avg_gpu_util_percent": 25.64757281553398,
+  "max_gpu_util_percent": 99.7,
+  "sample_count": 103,
+  "gpu_frequency_fields_preserved_in_raw_csv": true
+}
